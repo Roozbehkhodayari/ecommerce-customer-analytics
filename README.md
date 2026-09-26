@@ -1,6 +1,6 @@
 # E-Commerce Customer Analytics
 
-**End-to-end exploratory, multivariate, and predictive analysis of customer engagement, churn, and purchase value across four independent e-commerce datasets.**
+**Five-stage analysis of customer engagement, churn, and purchase value across four independent e-commerce datasets, covering data preparation, univariate analysis, bivariate analysis, multivariate analysis, and predictive modeling.**
 
 This project examines how customer behavior changes across different stages of the e-commerce journey: platform engagement, purchasing activity, retention and churn, and purchase experience. Rather than forcing all datasets into a single modeling problem, each dataset is evaluated on its own analytical value and then compared across a common workflow.
 
@@ -647,7 +647,7 @@ The notebooks are intentionally sequential: cleaned datasets created during prep
 
 ## Final Takeaway
 
-This project demonstrates an end-to-end data science workflow across four different e-commerce datasets rather than optimizing a single model in isolation.
+This project demonstrates a structured five-stage data science analysis across four different e-commerce datasets rather than optimizing a single model in isolation.
 
 The strongest evidence comes from the churn dataset, where customer history and behavioral variables produce both interpretable patterns and strong predictive performance. The engagement dataset provides moderate purchase-intent signal, while the purchase-experience dataset illustrates how leakage-aware feature design and business-specific metric trade-offs change model interpretation. The weak Sales & Customer Insights result is retained as evidence that responsible analysis also requires recognizing when a dataset does **not** support a useful predictive conclusion.
 
